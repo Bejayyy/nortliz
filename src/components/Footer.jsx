@@ -16,64 +16,23 @@ const Footer = () => {
         </div>
 
         {/* Social Media Links */}
-        <div className="flex justify-center space-x-6 mb-6">
-          <a href="https://facebook.com" className="text-[#FEAD5F] hover:text-[#F8F8F8]" target="_blank" rel="noopener noreferrer">
+        <div className="flex justify-center space-x-12 mb-6">
+          <a href="https://facebook.com" className="text-[#fff] hover:text-[#FEAD5F]" target="_blank" rel="noopener noreferrer">
             <i className="fab fa-facebook-f text-2xl"></i>
           </a>
-          <a href="https://twitter.com" className="text-[#FEAD5F] hover:text-[#F8F8F8]" target="_blank" rel="noopener noreferrer">
+          <a href="https://twitter.com" className="text-[#fff] hover:text-[#FEAD5F]" target="_blank" rel="noopener noreferrer">
             <i className="fab fa-twitter text-2xl"></i>
           </a>
-          <a href="https://linkedin.com" className="text-[#FEAD5F] hover:text-[#F8F8F8]" target="_blank" rel="noopener noreferrer">
+          <a href="https://linkedin.com" className="text-[#fff] hover:text-[#FEAD5F]" target="_blank" rel="noopener noreferrer">
             <i className="fab fa-linkedin-in text-2xl"></i>
           </a>
-          <a href="https://instagram.com" className="text-[#FEAD5F] hover:text-[#F8F8F8]" target="_blank" rel="noopener noreferrer">
+          <a href="https://instagram.com" className="text-[#fff] hover:text-[#FEAD5F]" target="_blank" rel="noopener noreferrer">
             <i className="fab fa-instagram text-2xl"></i>
           </a>
         </div>
 
         {/* Footer Navigation */}
-        <div className="flex justify-center space-x-6">
-          <NavLink
-            to="/"
-            className={({ isActive }) => 
-              isActive ? "text-[#FEAD5F] font-semibold" : "text-[#F8F8F8] hover:text-[#FEAD5F]"
-            }
-          >
-            Home
-          </NavLink>
-          <NavLink
-            to="/about"
-            className={({ isActive }) => 
-              isActive ? "text-[#FEAD5F] font-semibold" : "text-[#F8F8F8] hover:text-[#FEAD5F]"
-            }
-          >
-            About
-          </NavLink>
-          <NavLink
-            to="/services"
-            className={({ isActive }) => 
-              isActive ? "text-[#FEAD5F] font-semibold" : "text-[#F8F8F8] hover:text-[#FEAD5F]"
-            }
-          >
-            Services
-          </NavLink>
-          <NavLink
-            to="/portfolio"
-            className={({ isActive }) => 
-              isActive ? "text-[#FEAD5F] font-semibold" : "text-[#F8F8F8] hover:text-[#FEAD5F]"
-            }
-          >
-            Portfolio
-          </NavLink>
-          <NavLink
-            to="/contact"
-            className={({ isActive }) => 
-              isActive ? "text-[#FEAD5F] font-semibold" : "text-[#F8F8F8] hover:text-[#FEAD5F]"
-            }
-          >
-            Contact
-          </NavLink>
-        </div>
+        
       </div>
     </footer>
   );
